@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.jaylak">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".Activities.BrandRateActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- <activity android:name=".Activities.ForgotPasswordActivity" /> -->
+        <!-- <activity android:name=".Activities.LoginActivity" /> -->
+        <activity android:name=".Activities.CategoryActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.InterestsActivity" />
+        <activity android:name=".Activities.QuestionActivity" />
+        <!-- <activity android:name=".Activities.BrandsActivity" /> -->
+        <activity android:name=".Activities.StoreReservationActivity" />
+        <activity android:name=".Activities.StoreActivity" />
+        <!-- <activity android:name=".Activities.ProfileActivity" /> -->
+        <activity android:name=".Activities.ProfileHistoryActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <!-- <activity android:name=".Activities.BrandDetailsActivity"></activity> -->
+        <!--<activity android:name=".Activities.BrandRateActivity"></activity>-->
+    </application>
+
+</manifest>

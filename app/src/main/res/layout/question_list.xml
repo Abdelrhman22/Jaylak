@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.Dialog.Alert">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/question_answer_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Interior Design" />
+
+            <RadioButton
+                android:id="@+id/question_answer_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Software House" />
+
+            <RadioButton
+                android:id="@+id/question_answer_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cafe's" />
+
+            <RadioButton
+                android:id="@+id/question_answer_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GYM" />
+
+            <RadioButton
+                android:id="@+id/question_answer_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restaurant" />
+
+            <RadioButton
+                android:id="@+id/question_answer_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bank" />
+
+        </RadioGroup>
+
+    </ScrollView>
+</LinearLayout>

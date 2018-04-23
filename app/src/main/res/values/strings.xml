@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Jaylak</string>
+
+
+    <string name="tab1_nearby_brands">Nearby</string>
+    <string name="tab2_all_brands">All</string>
+
+
+    <string name="facebook_app_id">198488590909515</string>
+</resources>

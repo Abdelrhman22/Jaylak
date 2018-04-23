@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1084930374068",
+    "project_id": "jaylak-1521278301663"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084930374068:android:8ab4fa541ec22b2e",
+        "android_client_info": {
+          "package_name": "com.example.android.jaylak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084930374068-au6eqjfmjeqnpm9o4qs1hsv64ndcqlik.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1084930374068-3tg0mvpnoba1nvraqpk11ekamldprcsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.jaylak",
+            "certificate_hash": "93e82fce745bad520b5c271c318edbfff981bc09"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJRbdc15p6Lcles2YxBnI7ysiQ4qVFaEk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

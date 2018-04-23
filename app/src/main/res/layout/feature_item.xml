@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+    android:layout_margin="5dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginEnd="50dp"
+    android:orientation="vertical"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp"
+    android:layout_marginRight="50dp">
+
+    <ImageView
+        android:id="@+id/tv_feature_image_item"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon"
+      />
+
+</LinearLayout>

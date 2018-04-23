@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="#EEEE"
+    android:theme="@style/CardView.Dark">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:hint="Start Time"
+        android:textColorHint="@android:color/background_dark"
+        android:autofillHints= "@android:color/background_dark"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:hint="End Time"
+        android:textColorHint="@android:color/background_dark"
+        android:autofillHints= "@android:color/background_dark"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:hint="Number of Guests"
+        android:textColorHint="@android:color/background_dark"
+        android:autofillHints= "@android:color/background_dark"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark"
+        android:autofillHints= "@android:color/background_dark"
+        android:hint="Comments" />
+
+</LinearLayout>
